@@ -32,12 +32,18 @@
 					<a class="navlink font_dgb" href="/">Categories</a>
 				</div>
 				<div class="navbutton_mobile">
-					<img src="/assets/images/icon-menu.svg" alt="mobile hamburger menu" id='mobile_nav_button'>
+					<img class="navburger" 
+					src="/assets/images/icon-menu.svg"
+					 alt="mobile menu open" 
+					 id='mobile_nav_button_open'>
 				</div>
 				
-				<div class="mobile_nav_screen_overlay"></div>
-				<div class="mobile_nav_menu">
-					<img class="mobile_menu_close" src="./assets/images/icon-menu-close.svg" alt="">
+				<div class="mobile_nav_screen_overlay mobile_nav_hide"></div>
+				<div class="mobile_nav_menu mobile_nav_hide">
+					<img class="mobile_menu_close" 
+					src="./assets/images/icon-menu-close.svg" 
+					alt="mobile menu close"
+					id='mobile_nav_button_close'>
 				<div class="mobile_nav_links">
 					<a class="navlink font_dgb inter400" href="/">Home</a>
 					<a class="navlink font_dgb inter400" href="/">New</a>
@@ -157,4 +163,7 @@
 		</div> -->
 		</main>
 	</body>
+
+	<script src='script.js'></script>
+
 </html>
