@@ -60,14 +60,14 @@ Very dark blue: hsl(240, 100%, 5%) */
     color: #00001a
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
 a:hover {
     color: #e7a94b;
-  }
+}
 
 body {
     background-color: #fefdf9;
@@ -126,16 +126,16 @@ body {
     justify-content: space-evenly;
 }
 
-.navbutton_mobile{
+.navbutton_mobile {
     align-self: end;
     display: none;
 }
 
-.mobile_nav_menu{
+.mobile_nav_menu {
     display: none;
 }
 
-.mobile_nav_screen_overlay{
+.mobile_nav_screen_overlay {
     display: none;
 }
 
@@ -186,7 +186,7 @@ body {
 }
 
 .headline_desc_button:hover {
-    background-color:#e7a94b;
+    background-color: #e7a94b;
 }
 
 .sideline_articles {
@@ -196,7 +196,8 @@ body {
     grid-row: 1 / span 2;
     padding: 2rem;
 }
-.sideline_articles p{
+
+.sideline_articles p {
     color: hsl(233, 8%, 79%);
 }
 
@@ -269,14 +270,14 @@ body {
         align-self: end;
         justify-content: space-evenly;
     }
-    
-    .navbutton_mobile{
+
+    .navbutton_mobile {
         align-self: end;
         display: block;
     }
 
-    .mobile_nav_menu{
-        background-color:#fefdf9;
+    .mobile_nav_menu {
+        background-color: #fefdf9;
         z-index: 2;
         position: absolute;
         right: 0;
@@ -286,13 +287,13 @@ body {
         height: 500%;
     }
 
-    .mobile_menu_close{
+    .mobile_menu_close {
         margin-left: 80%;
         margin-top: 1.5rem;
         cursor: pointer;
     }
 
-    .mobile_nav_links{
+    .mobile_nav_links {
         display: flex;
         height: 350px;
         flex-direction: column;
@@ -302,21 +303,21 @@ body {
     }
 
     .navlink {
-        font-size: 1.5rem;  
+        font-size: 1.5rem;
     }
 
-    .mobile_nav_screen_overlay{
+    .mobile_nav_screen_overlay {
         z-index: 1;
         position: absolute;
         display: block;
         background-color: rgba(0, 0, 0, 0.6);
-        top:0;
-        right:0;
+        top: 0;
+        right: 0;
         width: 100%;
         height: 500%;
     }
 
-    .mobile_nav_hide{
+    .mobile_nav_hide {
         display: none;
     }
 
@@ -369,11 +370,11 @@ body {
         padding: 1rem;
         margin-bottom: 2.5rem;
     }
-    
+
     .bottom_text_container h3 {
         margin-top: -0.5rem;
     }
-    
+
     .bottom_text_container p {
         margin-top: -0.5rem;
     }
